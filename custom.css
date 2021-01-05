@@ -11,7 +11,8 @@ body {
 a,
 a:active,
 a:visited {
-	color: #999;
+    font-size: 16px;
+    color: #999;
 	text-decoration: none;
 }
 a:hover {
@@ -82,7 +83,11 @@ div#main ul {
 	border-radius: 3px;
 	padding: 5px;
 	background-color: #fff;
-	color: #999;
+	color: #333;
 	background-image: none;
 	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
 }
